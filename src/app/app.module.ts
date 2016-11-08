@@ -5,11 +5,13 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { ClickMeComponent } from './click-me/click-me.component';
+import { ShowMessageComponent } from './show-message/show-message.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ClickMeComponent
+    ClickMeComponent,
+    ShowMessageComponent
   ],
   imports: [
     BrowserModule,
